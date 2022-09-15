@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+    padding: 5%;
+}
+
+h1{
+font-family: 'Permanent Marker', cursive;
+font-size: 4rem;
+text-align: justify;
+color: #fff;
+}
+.navbar {
+    
+        padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+     margin-right: 10px;
+}
+
+.tp-head{
+    width:200px; 
+    border-radius: 20%;
+    float: left;
+    margin: 30px;
+}
+#customer{
+    color: #fff;
+}
+
+.title-image{
+    height: 400px;  
+}
+.big-heading{
+    text-align: left;
+}
+.h2{
+    font-family: "Poppins-Bold";
+}
+.h4{
+    font-family: "Poppins-Bold";
+}
+.p{
+    font-family: "Poppins-Bold";
+}
+.welcome-section{
+    padding: 3rem;
+    font-size: 1.5rem;
+    line-height: 4;
+    text-align:left;
+    color: #fff;
+    
+}
+.btn{
+    margin: 10px;
+}
+ .text-center{
+  color: #fff;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.text-center1{
+    text-align: center;
+}
+
+
+.food-menu-box{
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.food-menu-img{
+    height: 20%;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+   color: black;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: black;
+}
+.section-heading{
+    color: #fff;
+}
+.reviews{
+    text-align: center;
+}
+#about{
+    color: #fff;
+}
+.h3{
+    text-align: left;
+}
+
+/* CSS for Social */
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    display: inline;
+    padding: 1%;
+}
+.footer{
+    padding: 7%;
+}
+
+
